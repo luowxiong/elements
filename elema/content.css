@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    font-family: PingFang SC,Helvetica Neue,Arial,sans-serif;
+    font-size: 37.5px;
+    line-height: 1.2;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+
+.app{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.app .top{
+    width: 100%;
+    line-height: 10.666667vw;
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+.app .top .item{
+    flex: 1;
+    text-align: center;
+    font-size: .4rem;
+    color: #666;
+}
+
+.app .top1{
+    width: 100%;
+    line-height: 10.666667vw;
+    display: flex;
+
+}
+
+.app .top1 .item{
+    flex: 1;
+    text-align: center;
+    font-size: .4rem;
+    color: #666;
+}
+
+.app .top .item:nth-child(1){
+    color: #333333;
+    font-weight: 700;
+}
+
+.app .btm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.app .left{
+
+    width: 20.533333vw;
+    height: 100%;
+    background-color: #f8f8f8;
+}
+
+.app .left img{
+    width: 3.466667vw;
+    height: 3.466667vw;
+    margin-right: .8vw;
+}
+
+.app .left li{
+    padding: 4.666667vw 2vw;
+    font-size: .32rem;
+    color: #666;
+}
+
+.app .left li:nth-child(1){
+    background-color: #fff;
+    color: #333;
+}
+
+.app .right{
+    width: 79.466667vw;
+    height: 100%;
+
+}
+
+.app .right .d1-0{
+    margin-left: 2.666667vw;
+    padding: 2vw 8vw 2vw 0;
+    color: #666666;
+    font-weight: 700;
+}
+
+.app .right .d1-1{
+    min-height: 30.666667vw;
+    padding-left: 2.666667vw;
+}
+
+.app .right .d1-1-1{
+    /*padding: 2.666667vw 0;*/
+    margin-bottom: .133333vw;
+    min-height: 27.466667vw;
+    display: flex;
+}
+
+.app .right .d1-1-1 .left{
+    width: 41.25vw;
+    height: 25.333333vw;
+    margin-right: 2.666667vw;
+}
+
+.app .right .d1-1-1 .left img{
+    width: 100%;
+    height: 100%;
+}
+
+.app .right .d1-1-1 .right{
+    padding-bottom: 6.666667vw;
+    padding-right: 4vw;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+
+}
+
+.app .right .d1-1-1 .right .r1{
+    font-size: .4rem;
+    font-weight: 700;
+    overflow: hidden;
+    width: 40vw;
+    color: #333333;
+}
+
+.app .right .d1-1-1 .right .r2{
+    color: #999999;
+    font-size: .266667rem;
+    width: 42.666667vw;
+    margin: 1.333333vw 0;
+}
+
+.app .right .d1-1-1 .right .r3{
+    color: #999999;
+    font-size: .266667rem;
+    width: 42.666667vw;
+    margin: 1.333333vw 0;
+}
+
+.app .right .d1-1-1 .right .r4{
+    color: rgb(255, 83, 57);
+    line-height: 4.266667vw;
+    font-size: .4rem;
+    padding-top: 2.933333vw;
+    padding-bottom: .933333vw;
+}
+
+/*第二个商品暂空*/
+
+
+/*页脚*/
+.app .footer{
+    padding-right: 8.6vw;
+    width: 100%;
+    height: 12.6vw;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.app .footer .content{
+    color: #FFFFFF;
+    font-size: .4rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
